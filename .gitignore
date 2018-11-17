@@ -1,2 +1,15 @@
 .DS_Store
 /.idea
+
+### VSCode ###
+.settings/
+.vscode/
+tsconfig.json
+jsconfig.json
+
+### Node ###
+/node_modules
+
+### Style ###
+*.css
+*.css.map
