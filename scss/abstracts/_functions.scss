@@ -1,4 +1,5 @@
 // Function to get image path
+
 @function image-path($image-file, $image-path: $image-path){
     @return #{$image-path}#{$image-file};
 }

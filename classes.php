@@ -180,6 +180,7 @@ class App
                 echo View::getInstance()->render('index', [
                     'form' => $loginForm,
                     'sidebarContent' => Contents::getInstance()->getContent('sidebar'),
+                    'loginContent' => Contents::getInstance()->getContent('login'),
                 ]);
                 return;
             case 'logout':
